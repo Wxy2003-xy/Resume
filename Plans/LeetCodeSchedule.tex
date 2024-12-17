@@ -1,0 +1,245 @@
+\documentclass{article}
+\usepackage{enumitem}
+\usepackage{datetime}
+\begin{document}
+
+\section*{LeetCode Problem Categories by Technique}
+
+\subsection*{1. Array Manipulation}
+\textbf{Techniques:} Sliding window, two pointers, prefix sums, hashing.
+\begin{itemize}[noitemsep]
+    \item Two Sum
+    \item Maximum Subarray
+    \item Product of Array Except Self
+    \item Subarray Sum Equals K
+    \item Merge Intervals
+\end{itemize}
+
+\subsection*{2. Strings}
+\textbf{Techniques:} String manipulation, pattern matching, two pointers, hashing.
+\begin{itemize}[noitemsep]
+    \item Longest Substring Without Repeating Characters
+    \item Valid Anagram
+    \item Group Anagrams
+    \item Longest Palindromic Substring
+    \item String to Integer (atoi)
+\end{itemize}
+
+\subsection*{3. Linked List}
+\textbf{Techniques:} Slow and fast pointers, dummy nodes, reversing a list.
+\begin{itemize}[noitemsep]
+    \item Reverse Linked List
+    \item Merge Two Sorted Lists
+    \item Linked List Cycle
+    \item Add Two Numbers
+    \item Intersection of Two Linked Lists
+\end{itemize}
+
+\subsection*{4. Stack and Queue}
+\textbf{Techniques:} Monotonic stack, breadth-first search (BFS), depth-first search (DFS).
+\begin{itemize}[noitemsep]
+    \item Valid Parentheses
+    \item Daily Temperatures
+    \item Evaluate Reverse Polish Notation
+    \item Sliding Window Maximum
+    \item Implement Stack Using Queues
+\end{itemize}
+
+\subsection*{5. Binary Tree}
+\textbf{Techniques:} DFS, BFS, recursion, iterative traversal.
+\begin{itemize}[noitemsep]
+    \item Binary Tree Inorder Traversal
+    \item Maximum Depth of Binary Tree
+    \item Path Sum
+    \item Lowest Common Ancestor of a Binary Tree
+    \item Serialize and Deserialize Binary Tree
+\end{itemize}
+
+\subsection*{6. Binary Search Tree}
+\textbf{Techniques:} BST properties, recursion, in-order traversal.
+\begin{itemize}[noitemsep]
+    \item Validate Binary Search Tree
+    \item Insert into a Binary Search Tree
+    \item Kth Smallest Element in a BST
+    \item Lowest Common Ancestor of a BST
+    \item Binary Search Tree Iterator
+\end{itemize}
+
+\subsection*{7. Recursion and Backtracking}
+\textbf{Techniques:} Generate permutations/combinations, search space pruning.
+\begin{itemize}[noitemsep]
+    \item Subsets
+    \item Permutations
+    \item Combination Sum
+    \item Sudoku Solver
+    \item Word Search
+\end{itemize}
+
+\subsection*{8. Dynamic Programming}
+\textbf{Techniques:} State definition, transitions, memoization, tabulation.
+\begin{itemize}[noitemsep]
+    \item Climbing Stairs
+    \item House Robber
+    \item Longest Increasing Subsequence
+    \item Coin Change
+    \item Longest Common Subsequence
+\end{itemize}
+
+\subsection*{9. Greedy}
+\textbf{Techniques:} Local optimization leads to global solution.
+\begin{itemize}[noitemsep]
+    \item Jump Game
+    \item Gas Station
+    \item Meeting Rooms II
+    \item Partition Labels
+    \item Minimum Number of Arrows to Burst Balloons
+\end{itemize}
+
+\subsection*{10. Binary Search}
+\textbf{Techniques:} Divide and conquer, searching in sorted arrays.
+\begin{itemize}[noitemsep]
+    \item Binary Search
+    \item Search in Rotated Sorted Array
+    \item Find Minimum in Rotated Sorted Array
+    \item Koko Eating Bananas
+    \item Median of Two Sorted Arrays
+\end{itemize}
+
+\subsection*{11. Graphs}
+\textbf{Techniques:} BFS, DFS, union-find, shortest path algorithms.
+\begin{itemize}[noitemsep]
+    \item Number of Islands
+    \item Clone Graph
+    \item Course Schedule
+    \item Minimum Spanning Tree
+    \item Dijkstra's Algorithm
+\end{itemize}
+
+\subsection*{12. Bit Manipulation}
+\textbf{Techniques:} Bitwise operations, XOR, masking.
+\begin{itemize}[noitemsep]
+    \item Single Number
+    \item Hamming Distance
+    \item Counting Bits
+    \item Reverse Bits
+    \item Subsets (Bitmasking)
+\end{itemize}
+
+\subsection*{13. Sliding Window}
+\textbf{Techniques:} Dynamic window resizing, maintaining invariants.
+\begin{itemize}[noitemsep]
+    \item Minimum Window Substring
+    \item Longest Substring with At Most Two Distinct Characters
+    \item Sliding Window Maximum
+    \item Subarray Product Less Than K
+    \item Find All Anagrams in a String
+\end{itemize}
+
+\subsection*{14. Two Pointers}
+\textbf{Techniques:} Moving two pointers towards each other or independently.
+\begin{itemize}[noitemsep]
+    \item Two Sum II (Input Array Is Sorted)
+    \item Container With Most Water
+    \item Three Sum
+    \item Remove Duplicates from Sorted Array
+    \item Trapping Rain Water
+\end{itemize}
+
+\subsection*{15. Sorting}
+\textbf{Techniques:} Merge sort, quicksort, custom comparators.
+\begin{itemize}[noitemsep]
+    \item Merge Intervals
+    \item Sort Colors
+    \item Kth Largest Element in an Array
+    \item Meeting Rooms
+    \item Largest Number
+\end{itemize}
+
+\subsection*{16. Heap (Priority Queue)}
+\textbf{Techniques:} Min-heap, max-heap, custom comparators.
+\begin{itemize}[noitemsep]
+    \item Kth Largest Element in a Stream
+    \item Top K Frequent Elements
+    \item Find Median from Data Stream
+    \item Merge K Sorted Lists
+    \item Meeting Rooms II
+\end{itemize}
+
+\subsection*{17. Math and Number Theory}
+\textbf{Techniques:} Modular arithmetic, combinatorics, prime numbers.
+\begin{itemize}[noitemsep]
+    \item Fibonacci Number
+    \item Greatest Common Divisor of Strings
+    \item Sqrt(x)
+    \item Pow(x, n)
+    \item Count Primes
+\end{itemize}
+
+\subsection*{18. Union-Find (Disjoint Set)}
+\textbf{Techniques:} Path compression, union by rank.
+\begin{itemize}[noitemsep]
+    \item Number of Connected Components in an Undirected Graph
+    \item Redundant Connection
+    \item Graph Valid Tree
+    \item Accounts Merge
+    \item Smallest String With Swaps
+\end{itemize}
+
+\subsection*{19. Trie (Prefix Tree)}
+\textbf{Techniques:} Word prefix storage and retrieval.
+\begin{itemize}[noitemsep]
+    \item Implement Trie (Prefix Tree)
+    \item Add and Search Word
+    \item Word Search II
+    \item Replace Words
+    \item Maximum XOR of Two Numbers in an Array
+\end{itemize}
+
+\subsection*{20. Interval Problems}
+\textbf{Techniques:} Sorting intervals, merging intervals.
+\begin{itemize}[noitemsep]
+    \item Merge Intervals
+    \item Insert Interval
+    \item Non-Overlapping Intervals
+    \item Meeting Rooms
+    \item Minimum Number of Arrows to Burst Balloons
+\end{itemize}
+
+\subsection*{21. Divide and Conquer}
+\textbf{Techniques:} Recursive problem decomposition.
+\begin{itemize}[noitemsep]
+    \item Merge Sort
+    \item Quick Sort
+    \item Search in a Rotated Sorted Array
+    \item Median of Two Sorted Arrays
+    \item Maximum Subarray (Divide and Conquer Version)
+\end{itemize}
+
+\section*{Study Plan Calendar}
+
+\textbf{Study Plan:} Starting from \textbf{14/12/2024} to \textbf{21/4/2025}. The study plan is organized into continuous intervals, with one-week revisions after completing a topic.
+
+\begin{enumerate}[noitemsep]
+    \item \textbf{Week 1 (14/12/2024 - 20/12/2024):} Array Manipulation
+    \item \textbf{Week 2 (21/12/2024 - 27/12/2024):} Strings
+    \item \textbf{Week 3 (28/12/2024 - 03/01/2025):} Linked List
+    \item \textbf{Week 4 (04/01/2025 - 10/01/2025):} Stack and Queue
+    \item \textbf{Week 5 (11/01/2025 - 17/01/2025):} Binary Tree
+    \item \textbf{Week 6 (18/01/2025 - 24/01/2025):} Binary Search Tree
+    \item \textbf{Week 7 (25/01/2025 - 31/01/2025):} Recursion and Backtracking
+    \item \textbf{Week 8 (01/02/2025 - 07/02/2025):} Dynamic Programming
+    \item \textbf{Week 9 (08/02/2025 - 14/02/2025):} Greedy
+    \item \textbf{Week 10 (15/02/2025 - 21/02/2025):} Binary Search
+    \item \textbf{Week 11 (22/02/2025 - 28/02/2025):} Graphs
+    \item \textbf{Week 12 (01/03/2025 - 07/03/2025):} Bit Manipulation
+    \item \textbf{Week 13 (08/03/2025 - 14/03/2025):} Sliding Window
+    \item \textbf{Week 14 (15/03/2025 - 21/03/2025):} Two Pointers
+    \item \textbf{Week 15 (22/03/2025 - 28/03/2025):} Sorting
+    \item \textbf{Week 16 (29/03/2025 - 04/04/2025):} Heap (Priority Queue)
+    \item \textbf{Week 17 (05/04/2025 - 11/04/2025):} Math and Number Theory
+    \item \textbf{Week 18 (12/04/2025 - 18/04/2025):} Union-Find (Disjoint Set)
+    \item \textbf{Week 19 (19/04/2025 - 21/04/2025):} Trie (Prefix Tree)
+    \item Revisions will take place weekly after completing each topic.
+\end{enumerate}
+
+\end{document}

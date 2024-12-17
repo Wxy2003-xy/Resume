@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{array}
+\usepackage{longtable}
+
+\begin{document}
+
+\section*{Plan Table}
+
+% Table definition
+\renewcommand{\arraystretch}{1.5} % Adjust row height
+\setlength{\tabcolsep}{8pt}      % Adjust column spacing
+\begin{longtable}{|p{4cm}|p{8cm}|p{3cm}|} % Column widths
+\hline
+\textbf{Task} & \textbf{Description} & \textbf{Deadline} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Task} & \textbf{Description} & \textbf{Deadline} \\
+\hline
+\endhead
+
+Task 1 & Brief description of Task 1 & 2024-12-15 \\
+\hline
+Task 2 & Brief description of Task 2 & 2024-12-20 \\
+\hline
+Task 3 & Brief description of Task 3 & 2024-12-25 \\
+\hline
+
+\end{longtable}
+
+\end{document}
