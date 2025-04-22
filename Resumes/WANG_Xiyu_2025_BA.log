@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  10 JAN 2025 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.22)  11 APR 2025 15:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/wxy/Desktop/Resume/Resumes/WANG_Xiyu_2024
-(/Users/wxy/Desktop/Resume/Resumes/WANG_Xiyu_2024.tex
+**/Users/wxy/Desktop/Resume/Resumes/WANG_Xiyu_2025_BA
+(/Users/wxy/Desktop/Resume/Resumes/WANG_Xiyu_2025_BA.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -291,12 +291,16 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \mult@nat@firstbox=\box97
 \colbreak@box=\box98
 \mc@col@check@num=\count296
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count297
+\cp@tempcnt=\count298
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count297
+\l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box99
-) (./WANG_Xiyu_2024.aux)
-\openout1 = `WANG_Xiyu_2024.aux'.
+) (./WANG_Xiyu_2025_BA.aux)
+\openout1 = `WANG_Xiyu_2025_BA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -352,34 +356,79 @@ LaTeX Font Info:    ... okay on input line 9.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 9.
-(./WANG_Xiyu_2024.out) (./WANG_Xiyu_2024.out)
+(./WANG_Xiyu_2025_BA.out) (./WANG_Xiyu_2025_BA.out)
 \@outlinefile=\write3
-\openout3 = `WANG_Xiyu_2024.out'.
+\openout3 = `WANG_Xiyu_2025_BA.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--103
+Overfull \hbox (15.0pt too wide) in paragraph at lines 33--38
+[][]
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 42--45
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 57--68
+[][]
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 81--84
+[][]
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 95--98
+[][]
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 107--110
+[][]
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 121--124
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--173
 
  []
 
 [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./WANG_Xiyu_2024.aux)
-Package rerunfilecheck Info: File `WANG_Xiyu_2024.out' has not changed.
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./WANG_Xiyu_2025_BA.aux)
+Package rerunfilecheck Info: File `WANG_Xiyu_2025_BA.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8933 strings out of 476025
- 142103 string characters out of 5790016
- 1862388 words of memory out of 5000000
- 29315 multiletter control sequences out of 15000+600000
+ 8995 strings out of 476025
+ 143468 string characters out of 5790016
+ 1873388 words of memory out of 5000000
+ 29373 multiletter control sequences out of 15000+600000
  514335 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,76p,291b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,76p,294b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on WANG_Xiyu_2024.pdf (1 page, 74685 bytes).
+Output written on WANG_Xiyu_2025_BA.pdf (1 page, 81463 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
